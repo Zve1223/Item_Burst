@@ -45,10 +45,10 @@ namespace bst
 
 	extern sf::Image icon;
 
-	extern std::string fontName = "minecraft.ttf";
+	extern const std::string fontName = "minecraft.ttf";
 	extern sf::Font font;
 
-	extern std::vector<std::string> textureNames = {
+	extern const std::vector<std::string> textureNames = {
 			"apple.png", "baked_potato.png", "chorus_fruit.png", "diamond.png", "dragon_fireball.png", "egg.png", "emerald.png",
 			"ender_eye.png", "ender_pearl.png", "firework_star.png", "firework_star_overlay.png", "fire_charge.png", "golden_apple.png", "heart_of_the_sea.png",
 			"magma_cream.png", "nautilus_shell.png", "popped_chorus_fruit.png", "pufferfish.png", "slime_ball.png", "snowball.png", "turtle_egg.png"

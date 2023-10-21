@@ -1,12 +1,41 @@
-﻿Item.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
-Item.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in Engine.obj
-Item.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A) already defined in Engine.obj
+﻿  Engine.cpp
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
+  (compiling source file 'Engine.cpp')
+  
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
+  (compiling source file 'Engine.cpp')
+  
+  Item.cpp
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
+  (compiling source file 'Item.cpp')
+  
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
+  (compiling source file 'Item.cpp')
+  
+  Item_Burst.cpp
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
+  (compiling source file 'Item_Burst.cpp')
+  
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
+  (compiling source file 'Item_Burst.cpp')
+  
+  Resources.cpp
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
+  (compiling source file 'Resources.cpp')
+  
+D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
+  (compiling source file 'Resources.cpp')
+  
+  Generating Code...
+Item.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
+Item.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B) already defined in Engine.obj
+Item.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@B) already defined in Engine.obj
 Item_Burst.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
-Item_Burst.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in Engine.obj
-Item_Burst.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A) already defined in Engine.obj
+Item_Burst.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B) already defined in Engine.obj
+Item_Burst.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@B) already defined in Engine.obj
 Resources.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
-Resources.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in Engine.obj
-Resources.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@A) already defined in Engine.obj
+Resources.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B) already defined in Engine.obj
+Resources.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@B) already defined in Engine.obj
 sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Transformable.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(Color.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Color.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(VertexArray.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(VertexArray.obj)' or at ''; linking object as if no debug info
