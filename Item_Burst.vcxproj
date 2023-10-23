@@ -135,7 +135,7 @@
   <ItemGroup>
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Item.cpp" />
-    <ClCompile Include="Item_Burst.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Resources.cpp" />
   </ItemGroup>
   <ItemGroup>

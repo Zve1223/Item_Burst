@@ -5,37 +5,14 @@ D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'exter
 D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
   (compiling source file 'Engine.cpp')
   
-  Item.cpp
+  main.cpp
 D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
-  (compiling source file 'Item.cpp')
+  (compiling source file 'main.cpp')
   
 D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
-  (compiling source file 'Item.cpp')
-  
-  Item_Burst.cpp
-D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
-  (compiling source file 'Item_Burst.cpp')
-  
-D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
-  (compiling source file 'Item_Burst.cpp')
-  
-  Resources.cpp
-D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(34,3): warning C4091: 'extern ': ignored on left of 'const bst::TEXTURES' when no variable is declared
-  (compiling source file 'Resources.cpp')
-  
-D:\C++ Projects\Item_Burst\Item_Burst\Resources.hpp(42,3): warning C4091: 'extern ': ignored on left of 'const bst::itemType' when no variable is declared
-  (compiling source file 'Resources.cpp')
+  (compiling source file 'main.cpp')
   
   Generating Code...
-Item.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
-Item.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B) already defined in Engine.obj
-Item.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@B) already defined in Engine.obj
-Item_Burst.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
-Item_Burst.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B) already defined in Engine.obj
-Item_Burst.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@B) already defined in Engine.obj
-Resources.obj : error LNK2005: "float const * const bst::ITEM_SIZES" (?ITEM_SIZES@bst@@3QBMB) already defined in Engine.obj
-Resources.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const bst::fontName" (?fontName@bst@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@B) already defined in Engine.obj
-Resources.obj : error LNK2005: "class std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > const bst::textureNames" (?textureNames@bst@@3V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@B) already defined in Engine.obj
 sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Transformable.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(Color.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(Color.obj)' or at ''; linking object as if no debug info
 sfml-graphics-s-d.lib(VertexArray.obj) : warning LNK4099: PDB '' was not found with 'sfml-graphics-s-d.lib(VertexArray.obj)' or at ''; linking object as if no debug info
@@ -91,12 +68,4 @@ sfml-system-s-d.lib(MutexImpl.obj) : warning LNK4099: PDB '' was not found with 
 sfml-system-s-d.lib(ClockImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(ClockImpl.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(SleepImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(SleepImpl.obj)' or at ''; linking object as if no debug info
 sfml-system-s-d.lib(ThreadLocalImpl.obj) : warning LNK4099: PDB '' was not found with 'sfml-system-s-d.lib(ThreadLocalImpl.obj)' or at ''; linking object as if no debug info
-Engine.obj : error LNK2001: unresolved external symbol "class sf::Image bst::icon" (?icon@bst@@3VImage@sf@@A)
-Resources.obj : error LNK2001: unresolved external symbol "class sf::Image bst::icon" (?icon@bst@@3VImage@sf@@A)
-Engine.obj : error LNK2001: unresolved external symbol "class sf::Font bst::font" (?font@bst@@3VFont@sf@@A)
-Resources.obj : error LNK2001: unresolved external symbol "class sf::Font bst::font" (?font@bst@@3VFont@sf@@A)
-Engine.obj : error LNK2001: unresolved external symbol "class std::vector<class sf::Texture *,class std::allocator<class sf::Texture *> > bst::textures" (?textures@bst@@3V?$vector@PEAVTexture@sf@@V?$allocator@PEAVTexture@sf@@@std@@@std@@A)
-Resources.obj : error LNK2001: unresolved external symbol "class std::vector<class sf::Texture *,class std::allocator<class sf::Texture *> > bst::textures" (?textures@bst@@3V?$vector@PEAVTexture@sf@@V?$allocator@PEAVTexture@sf@@@std@@@std@@A)
-Engine.obj : error LNK2001: unresolved external symbol "class sf::Texture * bst::errorTexture" (?errorTexture@bst@@3PEAVTexture@sf@@EA)
-Resources.obj : error LNK2001: unresolved external symbol "class sf::Texture * bst::errorTexture" (?errorTexture@bst@@3PEAVTexture@sf@@EA)
-D:\C++ Projects\Item_Burst\x64\Debug\Item_Burst.exe : fatal error LNK1120: 4 unresolved externals
+  Item_Burst.vcxproj -> D:\C++ Projects\Item_Burst\x64\Debug\Item_Burst.exe

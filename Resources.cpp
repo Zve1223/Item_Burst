@@ -2,6 +2,30 @@
 
 namespace bst
 {
+	const enum TEXTURES;
+	const enum itemType;
+
+	const float ITEM_SIZES[TYPE_COUNT] = { 64.0f, 128.0f, 128.0f };
+
+	sf::Image icon;
+
+	const std::string fontName = "minecraft.ttf";
+	sf::Font font;
+
+	const std::vector<std::string> textureNames = {
+			"apple.png", "baked_potato.png", "chorus_fruit.png", "diamond.png", "dragon_fireball.png", "egg.png", "emerald.png",
+			"ender_eye.png", "ender_pearl.png", "firework_star.png", "firework_star_overlay.png", "fire_charge.png", "golden_apple.png", "heart_of_the_sea.png",
+			"magma_cream.png", "nautilus_shell.png", "popped_chorus_fruit.png", "pufferfish.png", "slime_ball.png", "snowball.png", "turtle_egg.png"
+	};
+	std::vector<sf::Texture*> textures;
+	sf::Texture* errorTexture;
+
+	void loadPresets();
+	void loadIcon();
+	void loadFont();
+	void loadTextures();
+	void createErrorTexture();
+
 	void loadPresets()
 	{
 		loadIcon();
@@ -40,11 +64,11 @@ namespace bst
 			sf::Texture* texture = new sf::Texture();
 			if (!texture->loadFromFile("./Textures/" + textureName))
 			{
-				std::cout << "Failed to load " << textureName << std::endl;
+				std::cout << '\t' << "Failed to load " << textureName << std::endl;
 				textures.push_back(errorTexture);
 				continue;
 			}
-			std::cout << textureName << " was loaded successfully" << std::endl;
+			std::cout << '\t' << textureName << " was loaded successfully" << std::endl;
 			textures.push_back(texture);
 		}
 		std::cout << "Done." << std::endl << std::endl;

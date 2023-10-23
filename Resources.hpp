@@ -41,18 +41,14 @@ namespace bst
 		TYPE_COUNT
 	};
 
-	extern const float ITEM_SIZES[TYPE_COUNT] = { 64.0f, 128.0f, 128.0f };
+	extern const float ITEM_SIZES[TYPE_COUNT];
 
 	extern sf::Image icon;
 
-	extern const std::string fontName = "minecraft.ttf";
+	extern const std::string fontName;
 	extern sf::Font font;
 
-	extern const std::vector<std::string> textureNames = {
-			"apple.png", "baked_potato.png", "chorus_fruit.png", "diamond.png", "dragon_fireball.png", "egg.png", "emerald.png",
-			"ender_eye.png", "ender_pearl.png", "firework_star.png", "firework_star_overlay.png", "fire_charge.png", "golden_apple.png", "heart_of_the_sea.png",
-			"magma_cream.png", "nautilus_shell.png", "popped_chorus_fruit.png", "pufferfish.png", "slime_ball.png", "snowball.png", "turtle_egg.png"
-	};
+	extern const std::vector<std::string> textureNames;
 	extern std::vector<sf::Texture*> textures;
 	extern sf::Texture* errorTexture;
 
